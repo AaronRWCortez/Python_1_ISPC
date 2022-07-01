@@ -15,3 +15,13 @@ def pedir5():
         i += 1
 
 main()
+
+# Función suma hecha por Priscila Kwiatkowski
+# La función recibe como parámetro la lista y devuelve la suma total de todos sus elementos.
+
+total = 0
+
+for number in lista:
+    if number > 0:
+     total += number
+print("La suma total de todos los elementos es: ", total)
