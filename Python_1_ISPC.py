@@ -28,7 +28,7 @@ def suma():
     print("La suma total de todos los elementos es: ", total)
 
 # Función minimo hecha por Julián Rolón
-# La funcion recorre la lista el imprime en consola el valor minimo entre sus elementos
+# La funcion recorre la lista e imprime en consola el valor minimo entre sus elementos
 
 
 def minimo():
@@ -39,7 +39,7 @@ def minimo():
     print("El valor minimo de la lista es ", minimo)
 
 # Función minimo hecha por Julián Rolón
-# La funcion recorre la lista el imprime en consola el valor maximo entre sus elementos
+# La funcion recorre la lista e imprime en consola el valor maximo entre sus elementos
 
 
 def maximo():
