@@ -2,7 +2,7 @@ lista = []
 
 def main():
     pedir5()
-    print(lista)
+    print()
 
 def pedir5():
 # Función pedir5 hecha por Aaron Ramiro Waldemar Cortez
@@ -14,14 +14,26 @@ def pedir5():
         lista.append(numero)
         i += 1
 
-main()
-
 # Función suma hecha por Priscila Kwiatkowski
 # La función recibe como parámetro la lista y devuelve la suma total de todos sus elementos.
+def suma():
+    total = 0
+    for number in lista:
+        if number > 0:
+            total += number
+    print("La suma total de todos los elementos es: ", total)
 
-total = 0
+# Función minimo hecha por Julián Rolón
+# La funcion recorre la lista el imprime en consola el valor minimo entre sus elementos
 
-for number in lista:
-    if number > 0:
-     total += number
-print("La suma total de todos los elementos es: ", total)
+
+def minimo():
+    minimo = lista[0]
+    for number in lista:
+        if number < minimo :
+            minimo = number
+    print("El valor minimo de la lista es ", minimo)
+
+
+main()
+
