@@ -50,4 +50,24 @@ def maximo():
     print("El valor maximo de la lista es ", maximo)
 
 
+#Función promedio hecha por Eric Diaz
+#la función recorre la lista e imprime el promedio de los números ingresados
+
+
+def promedio():
+    print("¿cuántos números deseas ingresar? ")
+    n = int(input())
+    i = 0
+
+    while i < n:
+        print("valor número: ",i+1)
+        val = float(input())
+        lista.append(val)
+        i+=1
+    prom = sum(lista) / len(lista)
+
+    print("el promedio es: ",prom)  
+
+
+
 main()
